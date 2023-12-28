@@ -1,0 +1,124 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 4px double black;
+}
+
+.login {
+  background-color: aqua;
+  width: 400px;
+  height: 400px;
+}
+.h{
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+.a{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ar{
+  background-color: bisque;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 20px;
+  
+}
+.in{
+  position: relative;
+  width: 200px;
+  left: 40px;
+  top: 30px;
+  
+
+}
+.as{
+  position: relative;
+  left: 40px;
+  top:45px;
+  width: 200px;
+}
+.in-cl{
+  height: 40px;
+  width: 210px;
+  cursor: pointer;
+  background-color:rgb(51, 255, 153);
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.in-cl:hover{
+  background-color: blueviolet;
+}
+.ps-cl{
+  height: 40px;
+  width: 210px;
+  cursor: pointer;
+  background-color:rgb(51, 255, 153);
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.ps-cl:hover{
+  background-color: blueviolet;
+
+}
+.butt{
+  position: relative;
+  left: 8em;
+}
+.bu-cl{
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: greenyellow;
+  cursor: pointer;
+  transition: background-color 0.3 ease; 
+}
+.bu-cl:hover{
+  background-color: blueviolet;
+}
+.nav{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  height: 100%;
+  border: 4px double black;
+}
+.cont{
+  background-color: rgb(163, 163, 230);
+  width: 1600px;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.navb{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.obsh{
+  position: relative;
+  left: 69em;
+}
+.rem{
+  position: relative;
+  bottom: 36px;
+  left: 20px;
+}
+.para{
+  color: rgb(105, 100, 93);
+}
